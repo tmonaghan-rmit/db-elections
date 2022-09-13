@@ -1,0 +1,5 @@
+SELECT * FROM VOTER;
+
+SELECT PreviouslyVoted('0') FROM VOTER WHERE VUID = '0';
+
+SELECT PreviouslyVoted('1') FROM VOTER WHERE VUID = '1';
